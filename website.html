@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- Identification of document type is first tag in order to pass validation-->
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <title>NanoDegreeWebSiteHomePage</title>
+    </head>
+    <body>
+      <h1 class="headline">Section 1</h1>
+        <h2 class="subhead">The Basics of Web and HTML</h2>
+          <div class="section">
+            <p class="smcap">This is the beginning of my site for the NanoDegree class. The first thing I learned was how to use tags in order to make words <b>bold</b> or <em>italicized.</em></p>
+            <p class="smcap"><span class="link">This image is also a link to Grantland.com, which has many interesting articles about sports and pop-culture, and therefore I visit it frequently:<br><br><a href = "http://www.grantland.com" target=_blank><img src="images/grantland.png" alt="Sorry!"></a></span></p> 
+            <p class="smcap">I also learned the difference between <b>Inline</b> and <b>Block</b> elements.</p>
+            <p class="smcap">Examples of inline tags are the break* tag, the form tag and the span tag.</p>
+            <p class="smcap">Examples of block tags, <em>which are intended to make a box of text</em>, are the paragraph tag, the strong tag and the div tag.
+            </p>
+            <p class="smcap"><span class="note"><b>*Note:</b> <em>Need to research how to put the actual tags into plain text so that the computer doesn't interpret as code.</em></span></p>
+          </div><br>
+      <h1 class="headline">Section 2</h1>
+        <h2 class="subhead">Creating a Structured Document</h2>
+          <div class="section">
+            <p class="smcap">Websites are structured using a 'tree' with matching elements that get lined up using "tags" in a computer language called HTML.</p>
+            <p class="smcap">The computer then interprets the HTML in order to identify how the page should look using style sheets (CSS).</p>
+            <p class="smcap">Most browsers have developer tools that allow you to see the source code as well as the style sheets, which is helpful for learning how to code a site.</p>
+            <p class="smcap">Basically everything on a website is just a series of boxes made to look like other things, even <b class="green">circles.</b></p>
+            <p class="smcap">Websites can also be thought of as one big grid with many boxes within them.</p>         
+          </div><br>
+      <h1 class="headline">Section 3</h1>
+        <h2 class="subhead">Adding CSS Style and Structure</h2>
+          <div class="section">
+            <p class="smcap">Cascading Style Sheets (CSS) can be added to your code as a linked file <b>or</b> at the top of the HTML document <b>or</b> within the tag itself (very repetitive, not recommended).</p>
+            <p class="smcap">Not repeating yourself is important because it will save time and ensure that site formatting and appearance is consistent throughout.</p>
+            <p class="smcap">"Cascading" means that rules are applied not only to the elements they directly match, but also to all of those elements' child elements. However, if a child element has multiple, overlapping rules defined for it, the more specific rule takes effect. That idea is known as inheritance and understanding it requires abstract thinking.</p>
+            <p class="smcap"> As mentioned above, HTML elements are placed into boxes and each box has 4 main components, but can also have many sub-components. Because there are so many components to each box, it can often be hard to get the size of a box just right.</p>
+            <p class="smcap">Adding the rule "display: flex;" to the appropriate CSS will let 'DIVs' appear next to each other instead of taking up the whole page.</p>
+          </div><br>
+      <h1 class="headline">Section 4</h1>
+        <h2 class="subhead">Introduction to Serious Programming</h2>
+          <div class="section">
+            <p class="smcap">Most machines do one or a few things with some settings/options, computers on the other hand, can do anything based on how it is programmed...and very fast.</p>
+            <p class="smcap">Python is a high level language to interpret & execute programs into a language the computer understands.</p>
+            <p class="smcap">Why not use english or any spoken language? Because language is too ambiguous (not specific) and verbose (not precise).</p>
+            <p class="smcap">Python grammar: Expression --> Expression Operator Expression where non-terminal values are replaced until only terminal values remain.</p>
+            <p class="smcap">Computer processors need to be small so that light can be sent across fast enough for a cycle to complete.</p>
+          </div><br>
+      <h1 class="headline">Section 5</h1>
+        <h2 class="subhead">Variables and Strings</h2>
+          <div class="section">
+            <p class="smcap">Using names to keep track of values in order to know what numbers and other things mean is known as a variable (name = Expression). Variables start with a letter or underscore. Variables can <em>vary</em> based on the most recent assignment. You have to assign/introduce a value to each variable before adding or changing it to another variable.</p>
+            <p class="smcap">Strings are sequences of characters surrounded by quotes. Use double or single quotes to put the opposite as text in your string. Put strings together using a '+' sign to concatenate.</p>
+            <p class="smcap">Index strings extract subsequences from a string using brackets. Remember that indexes start at 0. Use negative numbers to count from the back. You can multiply with strings, but not add.</p>
+            <p class="smcap">Subsequences can be found using expression strings that are a subsequence of all characters in the variable. Leave the ':' open to count to end, start with ':' to count from the beginning.</p>
+            <p class="smcap">.find is a method/procedure used to find specific substrings in a string. If a string isn't found in the search, the value returned will be -1.</p>
+            <p class="smcap"><span class="note"><b>Note:</b><em> Python notes start with '#' and Python cares about capitalization.</em></span></p>
+          </div><br>
+      <h1 class="headline">Section 6</h1>
+        <h2 class="subhead">Functions/Procedures</h2>
+          <div class="section">
+            <p class="smcap">Functions take input and produce output using the keywords 'def' and 'return'.</p>
+            <p class="smcap">There is a difference between how functions are defined (inputs) vs how they are used (print lines & output are different for example). </p>
+            <p class="smcap">In code like the following, the code in parenthesis defines the function: <em>def rest_of_string(s):</em> versus code like this where it defines the variable to be used when running the function: <em>print rest_of_string("audacity").</em></p>
+            <p class="smcap">Functions allow programs to perform the same activity multiple times for different sets of variables, saving time so that each activity doesn't need to be coded separately.</p>
+            <p class="smcap">If a function doesn't have a return call, then there isn't any outcome ("None" is returned).</p>
+          </div><br>
+      <h1 class="headline">Section 7</h1>
+        <h2 class="subhead">Control Flow and Loops</h2>
+          <div class="section">
+            <p class="smcap">Code can make decisions by using operators such as 'if', 'else' and 'or' to allow for comparisons to be done within a block.</p>
+            <p class="smcap">Boolean decisions return a 'True' or 'False' value.</p>
+            <p class="smcap">For an 'or' statement, if the first expression evaluates to true, the value is true and the second expression is not evaluated. If the value of the first expression is false, then the value of the <b>or</b> is the value of the second expression.</p>
+            <p class="smcap">Loops, such as the "while" operator allow for a function to run as many times as needed and can even run forever if not written correctly.</p>
+            <p class="smcap">A "break" operator stops a loop when a test condition becomes true.</p>
+            <p class="smcap">Bugs are inevitable and it is important to develop a strategy for finding and getting rid of them.</p>
+          </div><br>
+      <h1 class="headline">Section 8</h1>
+        <h2 class="subhead">Lists and For Loops</h2>
+          <div class="section">
+            <p class="smcap">Lists are sequences of anything. Lists are formatted using square brackets where the elements are separated by commas. Lists are indexed starting at 0.</p>
+            <p class="smcap">Mutation changes the value of a list after it has been created it by replacing the value and changing the assignment. Changing a value affects other values that reference the same object (aliasing). In mutation procedures, there's no need to have a return statement of the changed value.</p>
+            <p class="smcap">Append: Method for adding a new element to the end of a list (list stays the same).</p>
+            <p class="smcap">Plus: Add/concatenate two lists, produces new list.</p>
+            <p class="smcap">Len: Finding the length or number of elements or characters in a string.</p>
+            <p class="smcap">For: For each element in the list, assign that element to the name and evaluate the block.</p>
+            <p class="smcap">Index can find the position in a list where the value occurs. Gives error if the value is not found.</p>
+            <p class="smcap">In: True or false if a value is in a list; Not in: True or false if a value is NOT in a list.</p>
+            <p class="smcap">Learning how technology actually works is how you build your technological empathy. This empathy will help you diagnose and fix bugs that otherwise would have been a mystery to you.</p>
+          </div><br>
+      <h1 class="headline">Section 9</h1>
+        <h2 class="subhead">How to Solve Problems</h2>
+          <div class="section">
+            <p class="smcap">For solving complex problems, first make sure you understand the problem. In a computational problem, it can be defined by possible inputs and the relationship between inputs and desired outputs.</p>
+            <p class="smcap">First rule: What are the inputs? What is the set of valid inputs? How are inputs represented?</p>
+            <p class="smcap">Second rule: What are the outputs?</p>
+            <p class="smcap">Third rule: Solve the problem. Work out examples to understand the relationship between inputs and outputs. Consider systematically how a human would solve the problem.</p>
+            <p class="smcap">Write an algorithm and/or "pseudo code" that solves the problem. Decide, should I implement the algorithm? Or try to find a better way by determining what isn't handled in pseudo code.</p>
+            <p class="smcap">Find a simple mechanical solution and don't optimize prematurely.</p>
+            <p class="smcap">Once you start coding, start with the portion of the procedure that solves the main/simple case. Write small pieces of code so you know what they do (develop incrementally).</p>
+          </div><br>
+      <h1 class="headline">Section 10</h1>
+        <h2 class="subhead">OOP, Abstraction and Using Functions</h2>
+          <div class="section">
+            <p class="smcap">Object Oriented Programming (OOP) is a programming concept where data structures or "objects" are built to contain data, as fields/attributes and code, in the form of methods. A distinguishing feature of objects is that an object's procedures can access and often modify the data fields of the object with which they are associated. In OOP programming, computer programs are designed by making them out of objects that interact with one another. Most popular languages are class-based, meaning that objects are instances of classes, which typically also determines their type.</p>
+            <p class="smcap">Object Oriented Programming is also used in most of the common programming languages such as Python, C++, Java, Perl, Ruby and PHP, so if you understand it for one, that helps to learn and use other languages too. Many of the concepts used in OOP are also similar to what we learned about with markup languages.</p>
+            <p class="smcap">Object Oriented Programming is useful for larger projects because it provides for increased productivity due to modular design and the ability to extend and inherit new attributes into a class or object. Objects can also be reused across the entire project. Doing this makes it easier to maintain without the need for doing a lot of work to make changes. Python and other OOP languages come with large libraries of already available objects & classes, saving time and making development faster & cheaper while producing a higher quality relative to the experience of the developer.</p>
+            <p class="smcap">Learning to write a program to schedule breaks throughout the day (important since we spend so much time in front of a computer screen these days!).</p>
+            <p class="smcap">First, identify the steps you would take to get to the output.</p>
+            <p class="smcap">Whenever possible, use Google to find existing Python functions for what you're trying to do.</p>
+            <p class="smcap">Many functions exist in the "Python Standard Library" (detail is hidden via abstraction).</p>
+            <p class="smcap">Make sure the version of the documentation in the library matches the version of Python downloaded to your machine. You can view the available documentation to see how each standard function works.</p>
+            <p class="smcap">Use these functions with the "import" operator.</p>
+            <p class="smcap">r= raw path (before a file location so that Python treats it correctly).</p>
+            <p class="smcap">Python has a module called "OS" that can access Operating Systems.</p>
+          </div><br>
+      <h1 class="headline">Section 11</h1>
+        <h2 class="subhead">Using Classes to Draw Turtles</h2>
+          <div class="section">
+            <p class="smcap">It is easy to learn about classes by drawing shapes.</p>
+            <p class="smcap">"Turtle" is a function in Python that moves around to draw shapes.</p>
+            <p class="smcap">"Window" is a screen for drawing on which can be set to have certain characteristics such as bgcolor("red").</p>
+            <p class="smcap">Python knows about "turtle" because there is a "class Turtle" in the turtle function in the Python Standard Library.</p>
+            <p class="smcap">Pay attention to what the function is called and be sure not to use repetitive code whenever possible.</p>
+            <p class="smcap">Class: Like the blueprint of a building (height, rooms), can be used to build the same building many times.</p>
+            <p class="smcap">Instance or Object: Uses the class (blueprint) to get different examples or versions of the class.</p>
+            <p class="smcap">Calling an instance of a class calls the "init" function inside the class (creates space in memory), which is different from just calling a function we wrote separately outside of a class.</p>
+          </div><br>
+      <h1 class="headline">Section 12</h1>
+        <h2 class="subhead">Using Classes to Send an SMS</h2>
+          <div class="section">
+            <p class="smcap">Twilio class - not part of Python Standard Library. A "package" that needs to be downloaded separately.</p>
+            <p class="smcap">Packages can be imported, but first need setup tools or pip installed on your machine.</p>
+            <p class="smcap">Each package has an installation page with sample code which is useful for understanding how they work.</p>
+            <p class="smcap">Twilio requires a sign-up to get SID and authToken.</p>
+            <p class="smcap">For the following format: <'module'> import <'attribute'>, "from" is used for importing a specific variable, class or function from a module.</p>
+            <p class="smcap">GitHub - useful for seeing how "behind the scenes" code works.</p>
+            <p class="smcap">Inside Twilio is a folder called rest, inside that is a python file with a call called RestClient, which calls the init function.</p>
+          </div><br>
+      <h1 class="headline">Section 13</h1>
+        <h2 class="subhead">Using Classes to Check for Profanity</h2>
+          <div class="section">
+            <p class="smcap">The "open" function in Python allows you to look in files on your computer's directory or hard drive. The "open" function would be placed in a space of its own inside the Python Standard Library.</p>
+            <p class="smcap">The "read" function looks through the contents of a file.</p>
+            <p class="smcap">Common functions like "open" and "read" don't need to be imported, they are always available (built-in functions).</p>
+            <p class="smcap">"What do you love" (www.wdyl.com/profanity) is a site that can be used to check for curse words (i.e. contains list of words to check against).</p>
+            <p class="smcap">"urllib" helps get info from the Internet.</p>
+            <p class="smcap">Make sure to close docs and connections after opening in a Python program.</p>
+          </div><br>
+      <h1 class="headline">Section 14</h1>
+        <h2 class="subhead">Making Classes to Create a Movie Website</h2>
+          <div class="section">
+            <p class="smcap">When writing a class, consider what data points should your class should remember or what the class should do.</p>
+            <p class="smcap">Start with keyword "class" and name it. Google style guide for Python says that first letter of the class name should be capitalized.</p>
+            <p class="smcap">Create a single instance of the class as a separate file (save all files in the same folder). Then, import the file to your program file that the previous class was defined in.</p>
+            <p class="smcap">Classes can have data and methods.</p>
+            <p class="smcap">When an instance is called, the class "constructor" is called (functions such as "init").</p>
+            <p class="smcap">Define class: define "__init__" function.</p>
+            <p class="smcap">"Self" is a ways to call the instance being referenced (common term used for referencing an instance, can be any word though).</p>
+            <p class="smcap">Instance variables are variables associated with a specific instance/object.</p>
+            <p class="smcap">Instance methods are functions associated within a class.</p>
+          </div><br>
+      <h1 class="headline">Section 15</h1>
+        <h2 class="subhead">Advanced Topics When Writing Classes</h2>
+          <div class="section">
+            <p class="smcap">Class variables are variables defined at the class level that will be applicable to all instances.</p>
+            <p class="smcap">According to the Google style guide, variables or lists that won't change often should be uppercase.</p>
+            <p class="smcap">In python, all classes come with some pre-existing class variables. An example is "__doc__" where the documentation is in the class file with three sets of quotes around it.</p>
+            <p class="smcap">"__name__" returns the name of the class.</p>
+            <p class="smcap">"__module__" returns the name of the module in which the class was defined.</p>
+            <p class="smcap">Inheritance (variables) is where one class takes variables/attributes from another.</p>
+            <p class="smcap">The constructor for the class initialized in the request will be called/printed first, then the constructor for the second class, followed by the remaining statements.</p>
+            <p class="smcap">When inheriting, the format to use is "class ChildClass(ParentClass):" where the child class is inheriting attributes from the parent class. If no inheritance, the '()' is empty in a class definition.</p>
+            <p class="smcap">Inheritance (methods) is using a method defined in one class by using a specific instance of another method to call the inherited method.</p>
+            <p class="smcap">If a class is inherited by another class, all methods defined in that method are available for use even if they're not explicitly defined in the child method.</p>
+            <p class="smcap">If a method of the same name exists in both a parent and child class, then if an object using the child class is called, the method explicitly defined in the child class will be called, not the method as defined in the parent class (method overriding).</p>
+            <p class="smcap">Inheritance and method overriding are similar to the concepts of applying styles to an HTML doc via CSS in that a child class can inherit methods from a parent class in the same way that a higher level CSS style, such as one applied to the <'body'> element can be propogated throughout the entire HTML document so that it is used by the lower level tags such as <'div'> and <'p'>, <b>however</b> by writing our own CSS styles for the lower level tags, or creating our own CSS styles and appying those to a specific tag, this will override the styles defined at the higher levels, similar to how having a method defined in a child class will override a method with the same name defined in a parent class. In addition, both OOP and CSS are vital to the concept of code reuse and not repeating yourself throughout your code. The core purpose of both is to help in these areas.</p>
+          </div><br>
+      <h1 class="headline">Embedded Video Example</h1>
+        <h2 class="subhead">Watch the Trailer From One of my Favorite Movies!</h2>  
+          <div>
+            <p class="smcap">The Dark Knight - 2008</p>
+            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/EXeTwQWrcwY" frameborder="0" allowfullscreen></iframe></p>
+          </div>
+    </body>
+  </html>
